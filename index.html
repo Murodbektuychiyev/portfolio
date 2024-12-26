@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body {
+            line-height: 1.6;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #eef2f3;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+        }
+        .left-column {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .right-column {
+            flex: 1;
+        }
+        h1, h2, h3 {
+            color: #333;
+            margin-top: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+        .contact-icons {
+            font-size: 19px;
+            margin-bottom: 10px;
+        }
+        a {
+            margin-left: 5px;
+            text-decoration: none;
+            color: #007bff;
+            transition: color 0.3s;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+        .icon {
+            margin-right: 5px;
+            color: #708090;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .work-experience, .languages {
+            margin-bottom: 20px;
+        }
+        /* Responsive dizayn */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                flex-direction: column; 
+            }
+            .left-column, .right-column {
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <!-- Main section -->
+            <h1>Murodbek Tuychiyev</h1>
+            <h3>Frontend Developer</h3>
+            <br>
+            <!-- /Main section -->
+
+            <h3>Professional Summary</h3>
+            <p>
+                I’m a motivated and enthusiastic <b>Junior Frontend Developer</b> with a strong desire to grow and gain
+                experience in the field of web technologies. I have foundational knowledge in <b>HTML, CSS</b> and
+                <b>JavaScript</b> and hands-on experience with modern frontend libraries such as <b>React</b>. My goal is to create high-quality, user-friendly web interfaces.
+            </p> 
+
+            <!-- Contact section -->
+            <h2>Contact</h2>
+            <p class="contact-icons">
+                <i class="fas fa-phone-alt icon"></i>
+                +998 50 017 5636
+            </p>
+            <p class="contact-icons">
+                <i class="fas fa-mail-bulk icon"></i>
+                <a href="mailto:murodbektuychiyev83@gmail.com">murodbektuychiyev83@gmail.com</a>
+            </p>
+            <p class="contact-icons">
+                <i class="fas fa-globe icon"></i>
+                <a href="https://star-dev-zeta.vercel.app/">StarDev project site</a>
+            </p>
+            <p class="contact-icons">
+                <i class="fas fa-github icon"></i>    
+                <a href="https://github.com/Murodbektuychiyev">GitHub</a>
+            </p>
+            <p class="contact-icons">
+                <i class="fas fa-linkedin-in icon"></i>
+                <a href="https://www.linkedin.com/in/murodbek-tuychiyev-326b59315">LinkedIn</a>
+            </p>
+            <p class="contact-icons">
+                <i class="fas fa-home icon"></i>
+                Kashkadarya, Uzbekistan
+            </p>
+            <br>
+            <!-- /Contact section -->
+            
+            <!-- Education section -->
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <b>Secondary school:</b> 72-Maktab
+                </li>
+                <li>
+                    <b>Private school:</b> IT Klaster Academy: <i>Bootcamp, FrontEnd, ReactJs</i>
+                </li>
+            </ul>
+            <p>Dec 2024 - Until now</p>
+            <br>
+            <!-- /Education section -->
+            
+            <!-- Skills -->
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <br>
+            <!-- /Skills section -->
+        </div>
+
+        <div class="right-column">
+            <!-- Work experience -->
+            <h2>Work experience</h2>
+            <div class="work-experience">
+                <h3>StarDev</h3>
+                <h4>FrontEnd Developer</h4>
+                <p>20.12.2024 - 31.12.2024</p>
+                <p>StarDev is an online education platform whose goal is to expand modern knowledge and provide access to education for everyone.</p>
+            </div>
+            <!-- /Work experience -->
+            
+            <!-- Languages -->
+            <h2>Languages</h2>
+            <ul class="languages">
+                <li>Uzbek (native)</li>
+                <li>English (knows well)</li>
+                <li>Russian (doesn't know well)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
